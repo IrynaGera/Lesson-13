@@ -1,0 +1,40 @@
+.container2 {
+    background-color: $turquoise;
+    width: 100%;
+    padding: 75px 15px;
+}
+
+.aboutus {
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__image {
+        margin: 0 50px 0 0;
+    }
+
+    &__title {
+        margin: 0 0 0 50px;
+
+        &_name {
+            font-size: 90px;
+            color: $white;
+            font-weight: 700;
+            font-family: $raleway;
+            font-style: normal;
+            margin: 0;
+            padding: 100px 0 40px;
+        }
+    }
+
+    &__text {
+        width: 500px;
+        font-size: 17px;
+        color: $white;
+        font-weight: 300;
+        font-family: "Raleway";
+        font-style: normal;
+    }    
+}

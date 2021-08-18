@@ -1,0 +1,182 @@
+.nike-section {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nike {
+    border: 1px solid $dark-blue;
+    max-width: 715px;
+    background-color: $dark-blue;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+
+    &__logo {
+        padding: 0 18px 18px;
+    }
+   
+    &__holder {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    &__img {
+        margin: 0 40px 0 30px;
+    }
+
+    &__form {
+        margin: 0 40px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    &__title {
+        padding-bottom: 25px;
+    }
+
+    &__model {
+        font-size: 24px;
+        color: $white;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 26px;
+        color: $white;
+        color: $grey;
+    }
+
+    &__model {
+        padding-bottom: 15px;
+    }
+
+    &__star {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 25px 0;
+
+        &_rating {
+            color: $yellow;
+        }
+
+        &_norating {
+            color:$grey;
+        }
+    }
+
+    &__input {
+        padding-bottom: 30px;
+
+        &_select {
+            height: 30px;
+            border: 1px solid $grey;
+            border-radius: 0;
+            outline: none;
+            color: $grey;
+            background-color: inherit;
+            width: 68px;
+            font-size: 14px;
+            padding: 5px;
+            font-size: 14px;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+
+    &__holder {
+        margin-bottom: 40px;
+    }
+
+    &__button {
+        width: 182px;
+        padding: 15px 0;
+        font-size: 14px;
+        color: $grey;
+        background-color: inherit;
+        border: 1px solid $grey;
+        cursor: pointer;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.ellipse {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 20px 170px;
+
+    &__blue {
+        background-color: $blue;
+        height: 9px;
+        width: 9px;
+        border-radius: 50%;
+        margin: 0 5px;
+
+        &:hover {
+            border: 2px solid $grey;
+            border-radius: 50%;
+            transform: scale(2);
+        }
+    }
+
+    &__white {
+        background-color: $white;
+        height: 9px;
+        width: 9px;
+        border-radius: 50%;
+        margin: 0 5px;
+
+        &:hover {
+            border: 2px solid $grey;
+            border-radius: 50%;
+            transform: scale(2);
+        }
+    }
+
+    &__red {
+        background-color: $red;
+        height: 9px;
+        width: 9px;
+        border-radius: 50%;
+        margin: 0 5px;
+
+            &:hover {
+            border: 2px solid $grey;
+            border-radius: 50%;
+            transform: scale(2);
+        }
+    }
+
+    &__turquoise {
+        background-color: $turquoise;
+        height: 9px;
+        width: 9px;
+        border-radius: 50%;
+        margin: 0 5px;
+
+            &:hover {
+            border: 2px solid $grey;
+            border-radius: 50%;
+            transform: scale(2);
+        }
+    }
+}
